@@ -14,7 +14,10 @@ if(skills.length){
 // Adding skills on page
 $('.add-skill').on('click', function() {
     const skill = $('.input-text').val();
-    if(!skill) return;
+    if(!skill) {
+        alert("Please enter skill first");
+        return;
+    };
     $('.ul-cust').append(`<li class="list-group-item list-group-item-primary li-cust">
                             <button type="button" class="btn btn-danger close-btn float-right ">X</button>
                             <p>${skill}</p>
@@ -37,3 +40,4 @@ $('.ul-cust').on('click', '.close-btn' ,function()  {
 function readLocalStorage() {
      skills = JSON.parse(localStorage.getItem("skills")) || [];
 }
+

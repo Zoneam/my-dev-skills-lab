@@ -24,3 +24,7 @@ h1{
     border-radius: 25px;
     box-shadow: 0 0 10px rgba(0, 0, 0);
 }
+
+.input-text{
+    background-color:rgb(216, 216, 216);
+}
