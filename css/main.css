@@ -12,3 +12,15 @@
 .li-wrapper{
     width:80%;
 }
+
+p{
+    display: inline-block;
+}
+
+h1{
+    text-align: center;
+    color:rgb(90, 90, 90);
+    background-color: rgba(91, 146, 91, 0.53);
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0);
+}
